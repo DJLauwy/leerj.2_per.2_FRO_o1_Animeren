@@ -20,5 +20,5 @@ menuKnop.addEventListener('click', () => {
 		}, 100 * index);
 	});
 	document.querySelector('.fa-bars').classList.toggle('verbergen');
-	document.querySelector('.fa-times').classList.toggle('verbergen');
+	document.querySelector('.sluiten').classList.toggle('verbergen');
 });
